@@ -1,0 +1,75 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .add-button {
+    background-color: maroon;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .data-table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .data-table td, .data-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .data-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .data-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .data-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: maroon;
+    color: white;
+  }
+  
+  .thumbnail {
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+
+  }
+  
+  .edit-button, .delete-button {
+    background-color: maroon;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .edit-button:hover, .delete-button:hover {
+    background-color: silver;;
+  }
+
+  
